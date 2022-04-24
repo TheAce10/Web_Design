@@ -1,0 +1,93 @@
+body {
+    background-color:white ;
+    color: grey;
+}
+
+header {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(1, 7, 50);
+    padding: 0;
+    border: 0;
+    margin:0;
+}
+.p1 {
+    width: auto;
+    height: 50px;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 60px;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    height: 60px;
+    font-size: 30px;
+    width: 230px;
+}
+.devs {
+    border-radius: 60px;
+    background-color: white;
+    color: rgb(0, 140, 255);
+    height: 60px;
+    border-left: 10px;
+    display: inline-block;
+    width:100px;
+
+}
+.devs span {
+    position: relative;
+    margin-left: 20px;
+    top: 10px;  
+}
+.academy {
+    position: relative;
+    top: 10px;
+
+}
+.p2 ul{
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: flex-end;
+    height: 50px;
+    list-style: none;
+}
+.p2 ul li {
+    margin: 10px;
+}
+#side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.sidebar {
+    background-color: white;
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 2px;
+}
+a {
+    color: white;
+    text-decoration:none;
+}
+section{
+    color: gray;
+}
+.section1  {
+    width:100%;
+    height:50px;
+    background-color: gray;
+}
+section article {
+    margin-left:50px;
+    width:70%;
+    text-align: justify;
+}
