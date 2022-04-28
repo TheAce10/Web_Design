@@ -1,7 +1,9 @@
 :root {
-    
-    font-family: 'Courier New', Courier, monospace;
     font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
 }
 
 header {
@@ -10,9 +12,11 @@ header {
     justify-content:space-between;
     align-items: flex-end;
     border-bottom:blueviolet 3px solid;
+    padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
     position: fixed;
+    background-color: rgb(202, 202, 202);
 }
 
 #logo {
@@ -37,12 +41,18 @@ header {
     /*nav-left: ;*/
 }
 
-a {
+.nav-link {
     text-decoration: none;
     color: #000;
     padding: 5px;
+    font-size: 16px;
 
     /*border-bottom: salmon 2px solid;*/
+}
+
+#clink {
+    color:blueviolet;
+    font-weight: 700;
 }
 
 section#one {
@@ -50,12 +60,18 @@ section#one {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 #lines {
     width: 80%;
     padding: 10px;
+    text-align: justify;
+}
+
+#title {
+    text-align: center;
+    text-transform: capitalize;
 }
 
 #pricing {

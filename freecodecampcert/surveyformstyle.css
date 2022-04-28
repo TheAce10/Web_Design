@@ -18,9 +18,10 @@ body{
     display: block;
     width: 50%;
     height: 90%;
-    background: lightgreen;
+    background: white;
     padding-left: 20px;
     border-radius: 15px;
+    padding: 0;
 }
 
 #title {
@@ -47,6 +48,15 @@ span {
 #languages span {
     padding-bottom: 5px;
 }
+
+#survey-form {
+    padding-bottom: 10px;
+}
+
+.quest {
+    padding-bottom: 10px;
+}
+
 #survey-form input{
     width: 90%;
     border-radius: 0.25rem;
@@ -60,5 +70,7 @@ span {
     flex-direction: column;
     justify-content: space-evenly;
     height: 80%;
+    margin-top: 10px;
+    padding: 20px;
 }
 
