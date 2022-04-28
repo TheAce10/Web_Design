@@ -17,13 +17,28 @@
         <div id="form">
             <form action="none">
                 <div  id="survey-form">
-                    <div class="quest"><label for="name">Name</label>
+                    <div class="quest">
+                        <label for="name">
+                            <span>
+                                Name
+                            </span>
+                        </label>
                         <input type="text" id="name" name="name" placeholder="Enter your full name">
                     </div>
-                    <div class="quest"><label for="email">Email Address</label>
+                    <div class="quest">
+                        <label for="email">
+                            <span>
+                                Email Address
+                            </span>
+                        </label>
                         <input type="email" id="email" name="email" placeholder="Enter your email address">
                     </div>
-                    <div class="quest"><label for="age">Age</label>
+                    <div class="quest">
+                        <label for="age">
+                            <span>
+                                Age
+                            </span>
+                        </label>
                         <input type="number" id="number" name="age" min="1" max="31" placeholder="Enter your age">
                     </div>
                 </div>
@@ -31,13 +46,13 @@
                 <div id="learn">
                     <span>What would you love to learn</span>
                     <label for="webd">
-                        <input type="radio" name="webd">Web Development
+                        <input type="radio" name="webd" value="learn">Web Development
                     </label>
                     <label for="mobile">
-                        <input type="radio" name="mobile">Mobile App Development
-                    </label>
+                        <input type="radio" name="mobile" value="learn">Mobile App Development
+                    </label>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
                     <label for="data">
-                        <input type="radio" name="data">Data Science
+                        <input type="radio" name="data" value="learn">Data Science
                     </label>
                 </div>
 
@@ -52,7 +67,7 @@
                     <label for="js"><input name="js" type="checkbox" value="JavaScript">JavaScript</label>
                     <label for="java"><input name="java" type="checkbox" value="Java">Java</label>
                     <label for="php"><input name="php" type="checkbox" value="PHP">PHP</label>
-                </div>
+                </div> 
             </form>
         </div>
     </section>
